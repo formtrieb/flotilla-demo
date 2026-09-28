@@ -1,0 +1,21 @@
+{
+  "name": "measure",
+  "version": "0.1.0",
+  "description": "A small, dependency-free unit converter for TypeScript — the demo project flotilla's waves run against.",
+  "type": "module",
+  "private": true,
+  "license": "Apache-2.0",
+  "main": "./src/index.ts",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "typescript": "~5.9.3",
+    "vitest": "^5.0.2"
+  }
+}
